@@ -62,7 +62,7 @@ Ngrok allows you to expose your service to the Internet.
 flask --app app/app run
 ```
 
-3. Finally, execute the following command:
+3. Execute the following command using your app port at the end (by default, flask apps runs on `5000` port):
 
 ```bash
 ngrok http 5000
